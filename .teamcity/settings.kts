@@ -33,4 +33,5 @@ object Build : BuildType({
 object TeamcityKotlinExampleVcs : GitVcsRoot({
     name = "TeamcityKotlinExampleVcs"
     url = "https://github.com/openpipelines/teamcity-kotlin-example"
+    branch = "refs/heads/main"
 })
